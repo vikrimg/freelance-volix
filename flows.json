@@ -1,1 +1,3519 @@
-[]
+[
+    {
+        "id": "e3ce4705d630c8b3",
+        "type": "tab",
+        "label": "HMI",
+        "disabled": false,
+        "info": "",
+        "env": [
+            {
+                "name": "TABLE_NAME",
+                "value": "VolixDb",
+                "type": "str"
+            },
+            {
+                "name": "prodTable",
+                "value": "prodTable",
+                "type": "str"
+            }
+        ]
+    },
+    {
+        "id": "7238ea5c0b944856",
+        "type": "tab",
+        "label": "Production",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e4e6e727a4b89e23",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": false,
+        "info": "",
+        "env": [
+            {
+                "name": "tableName",
+                "value": "VolixDb",
+                "type": "str"
+            },
+            {
+                "name": "customerTable",
+                "value": "customerTable",
+                "type": "str"
+            },
+            {
+                "name": "prodTable",
+                "value": "prodTable",
+                "type": "str"
+            }
+        ]
+    },
+    {
+        "id": "b1597850ea219a89",
+        "type": "group",
+        "z": "e4e6e727a4b89e23",
+        "name": "DB Test",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "0be4a853c5f8dd7f",
+            "79aaa9b8cca58256",
+            "64419ad3218bde98",
+            "92a8e2de51d42b28",
+            "3718bd10a8f08898",
+            "8b2cc7378474d24a",
+            "5c521dbcfa753577",
+            "31845561876322a6",
+            "6916e0e335883c8f",
+            "c7532c2b1a149a10",
+            "a81249df2f455024",
+            "fbc13c422be0a57f",
+            "6d784d2aa86dccfd"
+        ],
+        "x": 164,
+        "y": 59,
+        "w": 662,
+        "h": 242
+    },
+    {
+        "id": "1251e19eceab78db",
+        "type": "group",
+        "z": "e4e6e727a4b89e23",
+        "name": "DB Test",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "366002030d09df5c",
+            "d501b6b30d701291",
+            "85a2c97cbde6c22d",
+            "c8143edda08c0601",
+            "22a9309db52e9283",
+            "6dfd6f72ca20c249",
+            "9332763ba1e2aa5e",
+            "a2271810ce00341d",
+            "958f3508d6d15933",
+            "e9774d05923844f6",
+            "2d71cb83aec58a88",
+            "309ea86ce8d7055c",
+            "b2481c049b6cbe95"
+        ],
+        "x": 164,
+        "y": 399,
+        "w": 662,
+        "h": 242
+    },
+    {
+        "id": "e58bd8f94d20e935",
+        "type": "group",
+        "z": "e4e6e727a4b89e23",
+        "name": "DB Test",
+        "style": {
+            "label": true
+        },
+        "nodes": [
+            "6f6bce614cca4ef5",
+            "81d28396c3540ffe",
+            "1363334c4346fff6",
+            "d5ea13d3b769c510",
+            "35dbf87e8b02310e",
+            "1765991b4c20f9c0",
+            "705caa2e5a809b13",
+            "7f709a6fdbc7144a",
+            "a2019dce1ede2873",
+            "41e9867c6dbed952",
+            "7275e440060aed38",
+            "7c2c4b1c3b6a1d0b",
+            "e71252f7e1354261"
+        ],
+        "x": 164,
+        "y": 659,
+        "w": 662,
+        "h": 242
+    },
+    {
+        "id": "6d784d2aa86dccfd",
+        "type": "junction",
+        "z": "e4e6e727a4b89e23",
+        "g": "b1597850ea219a89",
+        "x": 480,
+        "y": 180,
+        "wires": [
+            [
+                "79aaa9b8cca58256"
+            ]
+        ]
+    },
+    {
+        "id": "b2481c049b6cbe95",
+        "type": "junction",
+        "z": "e4e6e727a4b89e23",
+        "g": "1251e19eceab78db",
+        "x": 480,
+        "y": 520,
+        "wires": [
+            [
+                "d501b6b30d701291"
+            ]
+        ]
+    },
+    {
+        "id": "e71252f7e1354261",
+        "type": "junction",
+        "z": "e4e6e727a4b89e23",
+        "g": "e58bd8f94d20e935",
+        "x": 480,
+        "y": 780,
+        "wires": [
+            [
+                "81d28396c3540ffe"
+            ]
+        ]
+    },
+    {
+        "id": "1dc403d2d81d6fa2",
+        "type": "junction",
+        "z": "e3ce4705d630c8b3",
+        "x": 850,
+        "y": 220,
+        "wires": [
+            [
+                "5f66dae03dce2d44"
+            ]
+        ]
+    },
+    {
+        "id": "5f66dae03dce2d44",
+        "type": "junction",
+        "z": "e3ce4705d630c8b3",
+        "x": 1130,
+        "y": 220,
+        "wires": [
+            [
+                "66ae103ed519de11"
+            ]
+        ]
+    },
+    {
+        "id": "9a8986e50de92c2f",
+        "type": "ui_tab",
+        "name": "HMI",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e9f5bca4a07ebc08",
+        "type": "ui_group",
+        "name": "Input By Operator",
+        "tab": "9a8986e50de92c2f",
+        "order": 3,
+        "disp": true,
+        "width": 7,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "83205305c0974096",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "8cad760c097f016f",
+        "type": "ui_group",
+        "name": "monitoring",
+        "tab": "9a8986e50de92c2f",
+        "order": 2,
+        "disp": true,
+        "width": 24,
+        "collapse": false,
+        "className": "monitoring"
+    },
+    {
+        "id": "cae0865e39100ac1",
+        "type": "ui_group",
+        "name": "Counter",
+        "tab": "9a8986e50de92c2f",
+        "order": 4,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "11f72db67f98e5f8",
+        "type": "ui_group",
+        "name": "Result",
+        "tab": "9a8986e50de92c2f",
+        "order": 5,
+        "disp": true,
+        "width": 10,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "097f145ef69be4be",
+        "type": "sqlitedb",
+        "db": "c:\\temp\\VolixDatabase.db",
+        "mode": "RWC"
+    },
+    {
+        "id": "4b0305359fb9e6dd",
+        "type": "ui_tab",
+        "name": "Production",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "f2a9eca76b07d342",
+        "type": "ui_group",
+        "name": "Customer Name",
+        "tab": "4b0305359fb9e6dd",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ac89c2c5c39a36b2",
+        "type": "ui_group",
+        "name": "Part Number insert",
+        "tab": "4b0305359fb9e6dd",
+        "order": 2,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "8443cf073583d101",
+        "type": "global-config",
+        "name": "global-config",
+        "env": [
+            {
+                "name": "overallTable",
+                "value": "overallTable",
+                "type": "str"
+            },
+            {
+                "name": "customerTable",
+                "value": "customerTable",
+                "type": "str"
+            },
+            {
+                "name": "prodTable",
+                "value": "prodTable",
+                "type": "str"
+            }
+        ]
+    },
+    {
+        "id": "266a3cda0887853c",
+        "type": "ui_spacer",
+        "z": "e3ce4705d630c8b3",
+        "name": "spacer",
+        "group": "e9f5bca4a07ebc08",
+        "order": 3,
+        "width": 7,
+        "height": 1
+    },
+    {
+        "id": "19a230b2b45d1916",
+        "type": "ui_spacer",
+        "z": "e3ce4705d630c8b3",
+        "name": "spacer",
+        "group": "ac89c2c5c39a36b2",
+        "order": 9,
+        "width": 6,
+        "height": 1
+    },
+    {
+        "id": "943e378149e89641",
+        "type": "function",
+        "z": "e3ce4705d630c8b3",
+        "name": "function 1",
+        "func": "let weight = context.get(\"weight\") || 0.00;\n\nswitch (msg.topic) {\n    case \"1\":\n        weight = randInt(100, 10000)/100;\n        context.set(\"weight\", weight);\n        break;\n}\n\nmsg.payload = `ST,GS,    ${weight}kg\\n`;\nreturn msg;\n\n\nfunction randInt(min, max) {\n    return Math.floor(Math.random() * (max - min + 1)) + min;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 235,
+        "y": 120,
+        "wires": [
+            [
+                "760f7efa60655058"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a18d6b55fbaed9c0",
+        "type": "inject",
+        "z": "e3ce4705d630c8b3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "1",
+        "payload": "",
+        "payloadType": "date",
+        "x": 165,
+        "y": 120,
+        "wires": [
+            [
+                "943e378149e89641"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2f5731551a1f57d3",
+        "type": "inject",
+        "z": "e3ce4705d630c8b3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "2",
+        "payload": "",
+        "payloadType": "date",
+        "x": 165,
+        "y": 160,
+        "wires": [
+            [
+                "943e378149e89641"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "760f7efa60655058",
+        "type": "function",
+        "z": "e3ce4705d630c8b3",
+        "name": "function 2",
+        "func": "let inputString = msg.payload;\nvar match = inputString.match(/(\\d+\\.\\d+)/);\n\nif (match) {\n    msg.payload = match[1];\n} else {\n    msg.payload = null;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 120,
+        "wires": [
+            [
+                "1327d70853248719",
+                "69e6df692369e38b"
+            ]
+        ]
+    },
+    {
+        "id": "a5967595508286e9",
+        "type": "function",
+        "z": "e3ce4705d630c8b3",
+        "name": "function 3",
+        "func": "// // Mendapatkan data dari pesan\nlet rows = msg.payload;\nlet nullCheck = global.get(\"nullChecker\"); \nif(nullCheck(rows[0])){\n    msg.options = [{\n        empty:null\n    }]\n\n    return msg;\n}else{\n    let data = rows.map(row => {\n        let formattedData = {};\n        formattedData[row.PartNumber] = row.id;\n        return formattedData;\n    });\n\n// Menyimpan hasil ke dalam msg.data\nmsg.options = data;\nreturn msg;\n\n}\n\n// Memetakan data ke format yang diinginkan\n\n\n// let rows = msg.payload; // Hasil query SQLite\n// msg.options = rows.map(row => {\n//     let option = {};\n//     option[row.code] = row.customerName;\n//     return option;\n// });\n\n// return msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 360,
+        "wires": [
+            [
+                "cf3f00027ea337d9",
+                "8f3c45a770ae502f"
+            ]
+        ]
+    },
+    {
+        "id": "1f1b3e47ecf92583",
+        "type": "inject",
+        "z": "e3ce4705d630c8b3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "2",
+        "payload": "",
+        "payloadType": "date",
+        "x": 195,
+        "y": 360,
+        "wires": [
+            [
+                "0da919598d91e20f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "8f3c45a770ae502f",
+        "type": "ui_dropdown",
+        "z": "e3ce4705d630c8b3",
+        "name": "",
+        "label": "Part Number",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "e9f5bca4a07ebc08",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "PartNumber",
+        "topicType": "str",
+        "className": "",
+        "x": 790,
+        "y": 360,
+        "wires": [
+            [
+                "4df833f38f6f6f22"
+            ]
+        ]
+    },
+    {
+        "id": "1327d70853248719",
+        "type": "ui_text",
+        "z": "e3ce4705d630c8b3",
+        "group": "8cad760c097f016f",
+        "order": 1,
+        "width": 13,
+        "height": 2,
+        "name": "",
+        "label": "Weigth",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "mWeight",
+        "style": false,
+        "font": "",
+        "fontSize": "24",
+        "color": "#000000",
+        "x": 540,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "c76aa580c1050b9d",
+        "type": "ui_text",
+        "z": "e3ce4705d630c8b3",
+        "group": "8cad760c097f016f",
+        "order": 2,
+        "width": 11,
+        "height": 2,
+        "name": "",
+        "label": "Qty",
+        "format": "{{msg.payload.qty}}",
+        "layout": "col-center",
+        "className": "mQty",
+        "style": false,
+        "font": "",
+        "fontSize": "24",
+        "color": "#000000",
+        "x": 1100,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "988095c89026a6de",
+        "type": "ui_text",
+        "z": "e3ce4705d630c8b3",
+        "d": true,
+        "group": "cae0865e39100ac1",
+        "order": 1,
+        "width": 10,
+        "height": 2,
+        "name": "Counter",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1120,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "66ae103ed519de11",
+        "type": "ui_text",
+        "z": "e3ce4705d630c8b3",
+        "group": "11f72db67f98e5f8",
+        "order": 1,
+        "width": 10,
+        "height": 2,
+        "name": "Result",
+        "label": "",
+        "format": "{{msg.payload}}",
+        "layout": "col-center",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 1220,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "a8df5cf2df006696",
+        "type": "ui_template",
+        "z": "e3ce4705d630c8b3",
+        "group": "8cad760c097f016f",
+        "name": "",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "format": "<style>\n    .mWeight{\n        font-size:30px\n    }\n    .mQty{\n        font-size:30px\n    }\n</style>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 260,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d4e24fc1355d359c",
+        "type": "inject",
+        "z": "e3ce4705d630c8b3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 110,
+        "y": 320,
+        "wires": [
+            [
+                "a8df5cf2df006696"
+            ]
+        ]
+    },
+    {
+        "id": "9bdad734ac3b0f0a",
+        "type": "inject",
+        "z": "e3ce4705d630c8b3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 210,
+        "y": 60,
+        "wires": [
+            [
+                "da216941391eaab4",
+                "ad9aea4f418a162f"
+            ]
+        ]
+    },
+    {
+        "id": "da216941391eaab4",
+        "type": "function",
+        "z": "e3ce4705d630c8b3",
+        "name": "function 4",
+        "func": "let timer = flow.get(\"timer\");\n\n// Jika timer tidak disetel sebelumnya, inisialisasi dengan nilai 5\nif (timer === undefined) {\n    timer = 5;\n}\n\nif (timer > 0) {\n    timer--;\n    flow.set(\"timer\", timer);\n    node.status({ fill: \"red\", shape: \"dot\", text: timer.toString() });\n} else {\n    node.status({ fill: \"green\", shape: \"dot\", text: timer.toString() });\n}\n\n// Pastikan untuk menyimpan nilai 0 di context jika timer mencapai 0\nif (timer <= 0) {\n    flow.set(\"timer\", 0);\n}\n\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 40,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ddd81f7cf2d9acdd",
+        "type": "function",
+        "z": "e3ce4705d630c8b3",
+        "name": "function 5",
+        "func": "let data = msg.payload;\nlet prevData = context.get(\"prevData\");\nlet sendGate = context.get(\"sendGate\");\n\nprevData = nullCheck(prevData, 0);\nsendGate = nullCheck(sendGate, false);\n\nif(data != prevData){\n    node.status({fill:\"red\",shape:\"dot\",text:data});\n    context.set(\"prevData\", data);\n    context.set(\"sendGate\", false);\n    flow.set(\"timer\", 5);\n    return ([null, msg]);\n}else{\n    let timer = flow.get(\"timer\");\n    timer = nullCheck(timer,0);\n    if(timer<=0 && sendGate == false){\n        context.set(\"sendGate\", true);\n        node.status({fill:\"green\",shape:\"dot\",text:data});\n        return ([msg, null]);\n    }\n    let out = [data,timer,sendGate];\n    node.status({fill:\"green\",shape:\"ring\",text:out.toString()});\n    return ([null, msg]);\n}\n\n// if(data != prevData){\n// }else{\n\n//     return ([null, msg]);\n// }\n\nfunction nullCheck(value, filler) {\n    if(value===undefined){\n        value = filler;\n    }\n    return value;\n}",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 570,
+        "y": 180,
+        "wires": [
+            [
+                "f49d361d0e1aa46a"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "4df833f38f6f6f22",
+        "type": "function",
+        "z": "e3ce4705d630c8b3",
+        "name": "function 7",
+        "func": "let data = msg.payload;\nlet checker = global.get(\"nullChecker\");\nlet tableName = env.get(\"prodTable\");\n\nvar so;\nvar pn;\n\nswitch (msg.topic) {\n    case \"SoNumber\":\n        flow.set(\"SoNumberbfr\",data);\n        so = flow.get(\"SoNumberbfr\");\n        node.status({fill:\"green\",shape:\"dot\",text:so});\n        break;\n    case \"PartNumber\":\n        flow.set(\"PartNumberbfr\", data);\n        pn = flow.get(\"PartNumberbfr\");\n        node.status({fill:\"red\",shape:\"dot\",text:pn});\n        break;\n    case \"start\":\n\n        so = flow.get(\"SoNumberbfr\");\n        pn = flow.get(\"PartNumberbfr\");\n\n        if(checker(so) || checker(pn)){\n            msg.payload = \"Fill The Parameter\";\n            msg.topic = \"\";\n            return([null,msg]);\n        }else{\n            let query = `SELECT * FROM ${tableName} WHERE ID = ${pn}`;\n            msg.topic = query;\n            msg.data = {\n                soNumber : so,\n                partName : pn\n            };\n            return([msg,null]);\n\n        }\n}\n\nreturn null;\n",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1000,
+        "y": 420,
+        "wires": [
+            [
+                "ac5cfd4839213cbc"
+            ],
+            [
+                "cec0037881caf683"
+            ]
+        ]
+    },
+    {
+        "id": "91639db9b72cf547",
+        "type": "ui_text_input",
+        "z": "e3ce4705d630c8b3",
+        "name": "",
+        "label": "So Number",
+        "tooltip": "",
+        "group": "e9f5bca4a07ebc08",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "SoNumber",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 770,
+        "y": 400,
+        "wires": [
+            [
+                "4df833f38f6f6f22"
+            ]
+        ]
+    },
+    {
+        "id": "ca3f7041e716fc9d",
+        "type": "ui_ui_control",
+        "z": "e3ce4705d630c8b3",
+        "name": "",
+        "events": "all",
+        "x": 160,
+        "y": 400,
+        "wires": [
+            [
+                "0da919598d91e20f"
+            ]
+        ]
+    },
+    {
+        "id": "ad9aea4f418a162f",
+        "type": "function",
+        "z": "e3ce4705d630c8b3",
+        "name": "function 8",
+        "func": "flow.set(\"printerFormat\", function printerFormat(date, customer, partNo, soNumber, qty, weight) {\n\n    let data = `^XA\n    ^LH 50,60\n    ^FO10,10^A0,30^FDVolex - Indonesia^FS\n    ^FO10,40^A0,30^FD${customer}^FS\n    ^FO10,70^A0,30^FDProd. Date : ${date}^FS\n    ^FO10,100^A0,30^FDPART NO : ${partNo}^FS\n    ^FO10,130^A0,30^FD${soNumber}^FS\n    ^FO10,160^A0,30^FD${qty} - ${weight} kg^FS\n    ^XZ\n    `\n    // Mengonversi angka desimal menjadi biner dengan panjang 16 bit\n    return data;\n});\n\n// Menyimpan fungsi ke context flow\nflow.set(\"randomNumber\", function(min, max) {\n    let data = Math.random() * (max - min) + min;\n    return data;\n});\n\nglobal.set(\"nullChecker\", function nullChecker(value) {\n    return value === undefined || value === null || value === \"\";\n});\n\nflow\n\nflow.set(\"generateTimestamp\", function generateTimestamp() {\n    // Membuat objek Date baru\n    let now = new Date();\n\n    // Menggunakan Intl.DateTimeFormat untuk menetapkan zona waktu Jakarta\n    let options = {\n        timeZone: 'Asia/Jakarta',\n        year: 'numeric',\n        month: '2-digit',\n        day: '2-digit',\n        hour: '2-digit',\n        minute: '2-digit',\n        second: '2-digit',\n        fractionalSecondDigits: 3,\n        hour12: false\n    };\n\n    let formatter = new Intl.DateTimeFormat('sv-SE', options);\n    let parts = formatter.formatToParts(now);\n\n    let date = `${parts[4].value}-${parts[2].value}-${parts[0].value}`;\n    let time = `${parts[6].value}:${parts[8].value}:${parts[10].value}.${parts[12].value}`;\n    let isoTimestamp = `${date}T${time}+07:00`; // Zona waktu Jakarta adalah UTC+7\n\n    let regTimestamp = `${date} ${time}`;\n\n    let timeStamp = {\n        iso : isoTimestamp,\n        reg : regTimestamp\n    }\n\n    return timeStamp;\n});\n\n// Menghasilkan timestamp dan menyimpan ke msg.payload\n\n// Mengirim kembali pesan untuk debugging\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 400,
+        "y": 80,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "38d23f65c7b99eab",
+        "type": "function",
+        "z": "e3ce4705d630c8b3",
+        "name": "function 9",
+        "func": "msg.payload = `ST,GS,    10.4kg\\n`;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 260,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c285f39675320638",
+        "type": "function",
+        "z": "e3ce4705d630c8b3",
+        "name": "function 10",
+        "func": "let data = msg.payload;\nlet tableName = env.get(\"overallTable\");\n\nlet shift = \"shift\";\nlet parNumber = data.partNumber;\nlet soNumber = data.soNumber;\nlet weight = data.weight;\nlet quantity = data.qty\nlet soQty = flow.get(\"soQty\")||1; \n//no, PartNo, Weigth, Qty/pkg, Actual, tolerance, QTY pe/box\n\n//timestamp, shift, partNo, SoNo,  weight, Quantity, So Qty\nconst insertDataQuery = `\nINSERT INTO ${tableName} (\n    timestamp,\n    shift,\n    partNumber,\n    soNumber,\n    weight,\n    quantity,\n    soQty\n) VALUES (\n    '${data.timestamp}',\n    '${shift}',\n    '${parNumber}',\n    '${soNumber}',\n    '${weight}',\n    '${quantity}',\n    '${soQty}'\n);\n`;\n\nmsg.topic = insertDataQuery;\n\nmsg.payload = insertDataQuery;\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1120,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "33f2ed0c9e2fbc4d",
+        "type": "function",
+        "z": "e3ce4705d630c8b3",
+        "name": "function 11",
+        "func": "let weight = msg.payload;\n\nlet nullChecker = flow.get(\"nullChecker\");\n\nvar qty = flow.get(\"qty\") ||0;\n\nlet oqty = qty + 1; \nflow.set(\"qty\", oqty);\n\nlet partNo = flow.get(\"PartNumber\") || \"kosong\";\nlet soNumber = flow.get(\"SoNumber\") || \"kosong\";\nlet customer = flow.get(\"customer\") || \"kosong\";\n\nlet printerFormat = flow.get(\"printerFormat\");\nlet generateTimestamp = flow.get(\"generateTimestamp\");\n\nlet out = `${qty}, ${weight}, ${partNo}, ${soNumber}, ${customer}`\n\nlet date = generateTimestamp();\n\nmsg.payload = printerFormat(date.reg, customer, partNo, soNumber, qty, weight);\n// node.status({fill:\"blue\"/,shape:\"ring\",text:msg.payload});\n// return msg;\n\nlet db = {\n    payload : {\n        timestamp : date.iso,\n        weight:weight,\n        qty:oqty,\n        partNo:partNo,\n        soNumber:soNumber,\n        customer:customer,\n    },\n}\n\n\nreturn ([msg, db]);",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 160,
+        "wires": [
+            [
+                "ced1c499e8be5d92",
+                "be368314652be171"
+            ],
+            [
+                "c285f39675320638",
+                "c76aa580c1050b9d"
+            ]
+        ]
+    },
+    {
+        "id": "4168633ed4890377",
+        "type": "inject",
+        "z": "e3ce4705d630c8b3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "2",
+        "payload": "96.21",
+        "payloadType": "num",
+        "x": 545,
+        "y": 260,
+        "wires": [
+            [
+                "f49d361d0e1aa46a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "5d998ebed16b6cf7",
+        "type": "sqlite",
+        "z": "e3ce4705d630c8b3",
+        "mydb": "097f145ef69be4be",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "sqlite",
+        "x": 1310,
+        "y": 140,
+        "wires": [
+            []
+        ],
+        "icon": "node-red/db.svg"
+    },
+    {
+        "id": "ced1c499e8be5d92",
+        "type": "debug",
+        "z": "e3ce4705d630c8b3",
+        "name": "To Printer",
+        "active": true,
+        "tosidebar": false,
+        "console": false,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1000,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "be368314652be171",
+        "type": "tcp out",
+        "z": "e3ce4705d630c8b3",
+        "name": "ToPrinter",
+        "host": "localhost",
+        "port": "9100",
+        "beserver": "client",
+        "base64": false,
+        "end": false,
+        "tls": "",
+        "x": 1110,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "69e6df692369e38b",
+        "type": "function",
+        "z": "e3ce4705d630c8b3",
+        "name": "function 13",
+        "func": "let param = flow.get(\"param\");\nlet nullChecker = global.get(\"nullChecker\");\n\nlet so = param.PartNumber;\nlet pn = param.soNumber; \n\nif (nullChecker(so)||nullChecker(pn)) {\n    let data= \"Masukan Nilai SoNumber atau PartNumber\";\n    node.status({fill:\"red\",shape:\"dot\",text:data});\n    return (null, msg);\n} else {\n    let data = `SoNumber: ${so}, PartNumber: ${pn}`;\n    node.status({fill:\"red\",shape:\"dot\",text:data});\n    return ([msg, null]);\n}\n\nreturn msg;",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 180,
+        "wires": [
+            [
+                "ddd81f7cf2d9acdd"
+            ],
+            [
+                "bba85e88adba2037"
+            ]
+        ]
+    },
+    {
+        "id": "2b1bc8d93be26e98",
+        "type": "inject",
+        "z": "e3ce4705d630c8b3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 200,
+        "y": 440,
+        "wires": [
+            [
+                "15ed79e35ea5a241"
+            ]
+        ]
+    },
+    {
+        "id": "15ed79e35ea5a241",
+        "type": "function",
+        "z": "e3ce4705d630c8b3",
+        "name": "function 15",
+        "func": "",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "71107a967d769892",
+        "type": "sqlite",
+        "z": "e3ce4705d630c8b3",
+        "mydb": "097f145ef69be4be",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "sqlite",
+        "x": 470,
+        "y": 360,
+        "wires": [
+            [
+                "a5967595508286e9",
+                "088f61851cb541b4"
+            ]
+        ],
+        "icon": "node-red/db.svg"
+    },
+    {
+        "id": "0da919598d91e20f",
+        "type": "function",
+        "z": "e3ce4705d630c8b3",
+        "name": "show all data",
+        "func": "let tableName = env.get(\"prodTable\");\nconst showDataQuery = `\nSELECT * FROM ${tableName}\n`;\n\nmsg.topic = showDataQuery;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 310,
+        "y": 360,
+        "wires": [
+            [
+                "71107a967d769892"
+            ]
+        ]
+    },
+    {
+        "id": "cf3f00027ea337d9",
+        "type": "debug",
+        "z": "e3ce4705d630c8b3",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "options",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "5aba1a09d2acb70b",
+        "type": "link in",
+        "z": "e3ce4705d630c8b3",
+        "name": "ParamIn",
+        "links": [
+            "b096f13bfac6edcf"
+        ],
+        "x": 185,
+        "y": 560,
+        "wires": [
+            [
+                "179a58f58ac45017"
+            ]
+        ]
+    },
+    {
+        "id": "179a58f58ac45017",
+        "type": "function",
+        "z": "e3ce4705d630c8b3",
+        "name": "function 25",
+        "func": "let data = msg.payload;\n\nflow.set(\"partNumber\", data.partNumber);\nflow.set(\"partWeight\", data.partWeight);\nflow.set(\"qtyPackage\",data.qtyPackage);\nflow.set(\"actual\", data.actual);\nflow.set(\"tolerance\",data.tolerance);\nflow.set(\"boxQty\",data.boxQty);\n\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 290,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d9cf6cf0bee566a4",
+        "type": "ui_button",
+        "z": "e3ce4705d630c8b3",
+        "name": "",
+        "group": "e9f5bca4a07ebc08",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "start",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "start",
+        "topicType": "str",
+        "x": 770,
+        "y": 440,
+        "wires": [
+            [
+                "4df833f38f6f6f22"
+            ]
+        ]
+    },
+    {
+        "id": "b26e44dd5a89a3a9",
+        "type": "debug",
+        "z": "e3ce4705d630c8b3",
+        "name": "debug 11",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1300,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "0a99821ee07ed1a6",
+        "type": "inject",
+        "z": "e3ce4705d630c8b3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "start",
+        "payload": "11.23",
+        "payloadType": "num",
+        "x": 795,
+        "y": 480,
+        "wires": [
+            [
+                "4df833f38f6f6f22"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "ac5cfd4839213cbc",
+        "type": "sqlite",
+        "z": "e3ce4705d630c8b3",
+        "mydb": "097f145ef69be4be",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "sqlite",
+        "x": 1130,
+        "y": 420,
+        "wires": [
+            [
+                "b26e44dd5a89a3a9",
+                "21f80e3083276e76"
+            ]
+        ],
+        "icon": "node-red/db.svg"
+    },
+    {
+        "id": "21f80e3083276e76",
+        "type": "function",
+        "z": "e3ce4705d630c8b3",
+        "name": "function 26",
+        "func": "let param = msg.payload[0];\nparam.soNumber = msg.data.soNumber;\nflow.set(\"param\",param);\nflow.set(\"qty\", 0);\n\nmsg.topic = \"\";\nmsg.payload = \"Part number Selected\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1290,
+        "y": 500,
+        "wires": [
+            [
+                "fcb39aa2a45ef9b9",
+                "a7201d930a473015"
+            ]
+        ]
+    },
+    {
+        "id": "fcb39aa2a45ef9b9",
+        "type": "debug",
+        "z": "e3ce4705d630c8b3",
+        "name": "debug 12",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1440,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "f49d361d0e1aa46a",
+        "type": "function",
+        "z": "e3ce4705d630c8b3",
+        "name": "function 27",
+        "func": "let param = flow.get(\"param\");\nlet data = msg.payload;\nlet tolerance = param.Tolerance;\nlet weightParam = param.QTYperPackage;\n\nlet upTolerance = weightParam + (weightParam*(tolerance/100));\nlet downTolerance = weightParam - (weightParam*(tolerance/100));\nlet monitor = `${data}, ${upTolerance}, ${downTolerance}`;\n\nnode.status({fill:\"green\",shape:\"dot\",text:monitor});\n\nif(data>=downTolerance && data <= upTolerance){\n    msg.result = \"PASS\";\n    return ([msg, null, msg]);\n}else{\n    msg.result = \"FAIL\";\n    return([null, msg, msg]);\n}\n",
+        "outputs": 3,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 180,
+        "wires": [
+            [
+                "33f2ed0c9e2fbc4d"
+            ],
+            [],
+            [
+                "f3827e1ed1aaa0e4"
+            ]
+        ]
+    },
+    {
+        "id": "f3827e1ed1aaa0e4",
+        "type": "function",
+        "z": "e3ce4705d630c8b3",
+        "name": "function 28",
+        "func": "msg.payload = msg.result;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 740,
+        "y": 240,
+        "wires": [
+            [
+                "1dc403d2d81d6fa2",
+                "29b97e22cd996864",
+                "c5313f7bfe8e469b"
+            ]
+        ]
+    },
+    {
+        "id": "9158c5655509846b",
+        "type": "function",
+        "z": "e3ce4705d630c8b3",
+        "name": "function 29",
+        "func": "msg.payload = \"-\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 260,
+        "wires": [
+            [
+                "29b97e22cd996864",
+                "66ae103ed519de11"
+            ]
+        ]
+    },
+    {
+        "id": "c5313f7bfe8e469b",
+        "type": "delay",
+        "z": "e3ce4705d630c8b3",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "3",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 910,
+        "y": 260,
+        "wires": [
+            [
+                "9158c5655509846b"
+            ]
+        ]
+    },
+    {
+        "id": "29b97e22cd996864",
+        "type": "debug",
+        "z": "e3ce4705d630c8b3",
+        "name": "debug 13",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 990,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "784603ae808eee84",
+        "type": "inject",
+        "z": "e3ce4705d630c8b3",
+        "name": "",
+        "props": [
+            {
+                "p": "result",
+                "v": "test",
+                "vt": "str"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "2",
+        "x": 675,
+        "y": 280,
+        "wires": [
+            [
+                "f3827e1ed1aaa0e4"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a7201d930a473015",
+        "type": "ui_toast",
+        "z": "e3ce4705d630c8b3",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1470,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "bba85e88adba2037",
+        "type": "ui_toast",
+        "z": "e3ce4705d630c8b3",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 500,
+        "y": 280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cec0037881caf683",
+        "type": "ui_toast",
+        "z": "e3ce4705d630c8b3",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1070,
+        "y": 500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "088f61851cb541b4",
+        "type": "debug",
+        "z": "e3ce4705d630c8b3",
+        "name": "debug 14",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "options",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 560,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "1afb33dc73ce71df",
+        "type": "inject",
+        "z": "e3ce4705d630c8b3",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "2",
+        "payload": "",
+        "payloadType": "date",
+        "x": 165,
+        "y": 200,
+        "wires": [
+            [
+                "edfe0544f80301da"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "edfe0544f80301da",
+        "type": "function",
+        "z": "e3ce4705d630c8b3",
+        "name": "function 30",
+        "func": "msg.payload = `ST,GS,    20.2kg\\n`;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 235,
+        "y": 200,
+        "wires": [
+            [
+                "760f7efa60655058"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "12d4c1443da55657",
+        "type": "ui_text_input",
+        "z": "7238ea5c0b944856",
+        "name": "",
+        "label": "Customer Code",
+        "tooltip": "",
+        "group": "f2a9eca76b07d342",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "cCode",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 380,
+        "y": 280,
+        "wires": [
+            [
+                "637e1d0d594ef5cb"
+            ]
+        ]
+    },
+    {
+        "id": "73e3e8492b12c708",
+        "type": "ui_text_input",
+        "z": "7238ea5c0b944856",
+        "name": "",
+        "label": "Customer Name",
+        "tooltip": "",
+        "group": "f2a9eca76b07d342",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "cName",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 380,
+        "y": 240,
+        "wires": [
+            [
+                "637e1d0d594ef5cb"
+            ]
+        ]
+    },
+    {
+        "id": "e2db0795160d4648",
+        "type": "ui_button",
+        "z": "7238ea5c0b944856",
+        "name": "",
+        "group": "f2a9eca76b07d342",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "save",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "button",
+        "topicType": "str",
+        "x": 410,
+        "y": 320,
+        "wires": [
+            [
+                "637e1d0d594ef5cb"
+            ]
+        ]
+    },
+    {
+        "id": "a1ac87b55be8e708",
+        "type": "ui_text_input",
+        "z": "7238ea5c0b944856",
+        "name": "",
+        "label": "PartNumber",
+        "tooltip": "",
+        "group": "ac89c2c5c39a36b2",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 350,
+        "y": 420,
+        "wires": [
+            [
+                "573182bbb6f49fb5"
+            ]
+        ]
+    },
+    {
+        "id": "f67c19b185e4036b",
+        "type": "ui_text_input",
+        "z": "7238ea5c0b944856",
+        "name": "",
+        "label": "Weight/Part",
+        "tooltip": "",
+        "group": "ac89c2c5c39a36b2",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "PartWeight",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 350,
+        "y": 460,
+        "wires": [
+            [
+                "a65e22feb4b6a439"
+            ]
+        ]
+    },
+    {
+        "id": "79efca5455cf4c87",
+        "type": "ui_text_input",
+        "z": "7238ea5c0b944856",
+        "name": "",
+        "label": "Qty/Package",
+        "tooltip": "",
+        "group": "ac89c2c5c39a36b2",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "QtyPackage",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "str",
+        "x": 350,
+        "y": 500,
+        "wires": [
+            [
+                "a65e22feb4b6a439"
+            ]
+        ]
+    },
+    {
+        "id": "5db35c2881131d98",
+        "type": "ui_text",
+        "z": "7238ea5c0b944856",
+        "group": "ac89c2c5c39a36b2",
+        "order": 7,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Actual",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 670,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "57f185a794909013",
+        "type": "ui_text_input",
+        "z": "7238ea5c0b944856",
+        "name": "",
+        "label": "Tolerance(%)",
+        "tooltip": "",
+        "group": "ac89c2c5c39a36b2",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 350,
+        "y": 540,
+        "wires": [
+            [
+                "d92afb08f0bc34ab"
+            ]
+        ]
+    },
+    {
+        "id": "508a80bbdfea8544",
+        "type": "ui_text_input",
+        "z": "7238ea5c0b944856",
+        "name": "",
+        "label": "QTY PE Bag/Box",
+        "tooltip": "",
+        "group": "ac89c2c5c39a36b2",
+        "order": 8,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "number",
+        "delay": 300,
+        "topic": "topic",
+        "sendOnBlur": true,
+        "className": "",
+        "topicType": "msg",
+        "x": 330,
+        "y": 580,
+        "wires": [
+            [
+                "8a9c82fa81ec7274"
+            ]
+        ]
+    },
+    {
+        "id": "34281d80ab965241",
+        "type": "ui_dropdown",
+        "z": "7238ea5c0b944856",
+        "name": "",
+        "label": "Customer",
+        "tooltip": "",
+        "place": "Select option",
+        "group": "ac89c2c5c39a36b2",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "PartNumber",
+        "topicType": "str",
+        "className": "",
+        "x": 680,
+        "y": 380,
+        "wires": [
+            [
+                "9e6a437b124e8fab"
+            ]
+        ]
+    },
+    {
+        "id": "42f57aa595ab3a93",
+        "type": "ui_ui_control",
+        "z": "7238ea5c0b944856",
+        "name": "",
+        "events": "all",
+        "x": 120,
+        "y": 340,
+        "wires": [
+            [
+                "b0190b1cdb9839db"
+            ]
+        ]
+    },
+    {
+        "id": "637e1d0d594ef5cb",
+        "type": "function",
+        "z": "7238ea5c0b944856",
+        "name": "function 16",
+        "func": "var cName;\nvar cCode;\n\nlet nullChecker = global.get(\"nullChecker\");\n\nswitch (msg.topic) {\n    case \"cName\":\n        context.set(\"cName\", msg.payload);\n        node.status({fill:\"blue\",shape:\"dot\",text:msg.payload});\n        break;\n    case \"cCode\":\n        context.set(\"cCode\", msg.payload);\n        node.status({fill:\"yellow\",shape:\"dot\",text:msg.payload});\n        break;\n    case \"button\":\n        cName = context.get(\"cName\");\n        cCode = context.get(\"cCode\");\n\n        if(nullChecker(cCode) || nullChecker(cName)){\n            msg.payload = \"please fill the Parameter!\";\n            return([null, msg]);\n        }else{\n            msg.payload = {\n                customerName : cName,\n                customerCode : cCode\n            }\n\n            return([msg, null])\n        }\n}\nreturn null;",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 610,
+        "y": 280,
+        "wires": [
+            [
+                "615c07f4ce6158eb"
+            ],
+            [
+                "d310e5c7576684da",
+                "b0190b1cdb9839db"
+            ]
+        ]
+    },
+    {
+        "id": "d310e5c7576684da",
+        "type": "ui_toast",
+        "z": "7238ea5c0b944856",
+        "position": "top right",
+        "displayTime": "2",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 810,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "615c07f4ce6158eb",
+        "type": "function",
+        "z": "7238ea5c0b944856",
+        "name": "function 17",
+        "func": "let tableName = env.get(\"customerTable\");\n\n\n\nmsg.topic = `INSERT INTO ${tableName} (\n    code,\n    customerName\n    ) VALUES (\n    '${msg.payload.customerName}',\n    '${msg.payload.customerCode}'\n    )\n`;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 260,
+        "wires": [
+            [
+                "ef5668839e506dd9"
+            ]
+        ]
+    },
+    {
+        "id": "ef5668839e506dd9",
+        "type": "sqlite",
+        "z": "7238ea5c0b944856",
+        "mydb": "097f145ef69be4be",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "sqlite",
+        "x": 950,
+        "y": 260,
+        "wires": [
+            [
+                "46a8535077dfc524"
+            ]
+        ],
+        "icon": "node-red/db.svg"
+    },
+    {
+        "id": "46a8535077dfc524",
+        "type": "function",
+        "z": "7238ea5c0b944856",
+        "name": "function 18",
+        "func": "msg.payload = \"Success!\"\nmsg.topic = \"\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 260,
+        "wires": [
+            [
+                "000b395408207855"
+            ]
+        ]
+    },
+    {
+        "id": "000b395408207855",
+        "type": "ui_toast",
+        "z": "7238ea5c0b944856",
+        "position": "top right",
+        "displayTime": "2",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 1290,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "b0190b1cdb9839db",
+        "type": "function",
+        "z": "7238ea5c0b944856",
+        "name": "show all data",
+        "func": "let tableName = env.get(\"customerTable\");\nconst showDataQuery = `\nSELECT * FROM ${tableName}\n`;\n\nmsg.topic = showDataQuery;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 210,
+        "y": 380,
+        "wires": [
+            [
+                "33f34aaf1756c1f5"
+            ]
+        ]
+    },
+    {
+        "id": "33f34aaf1756c1f5",
+        "type": "sqlite",
+        "z": "7238ea5c0b944856",
+        "mydb": "097f145ef69be4be",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "sqlite",
+        "x": 370,
+        "y": 380,
+        "wires": [
+            [
+                "a7b31f9b4396bf7a",
+                "90ee5027eeb8f03d"
+            ]
+        ],
+        "icon": "node-red/db.svg"
+    },
+    {
+        "id": "a7b31f9b4396bf7a",
+        "type": "function",
+        "z": "7238ea5c0b944856",
+        "name": "function 19",
+        "func": "let nullCheck = global.get(\"nullChecker\");\n\nnode.status({fill:\"green\",shape:\"dot\",text:msg.payload[0]});\n\n\nif(nullCheck(msg.payload[0])){\n    msg.options = [{\n        empty:null\n    }];\n}else{\n    let rows = msg.payload; // Hasil query SQLite\n    msg.options = rows.map(row => {\n        let option = {};\n        option[row.code] = row.customerName;\n        return option;\n    });\n}\n\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 380,
+        "wires": [
+            [
+                "34281d80ab965241",
+                "c23984fbad4578ef"
+            ]
+        ]
+    },
+    {
+        "id": "1eedea380803c41f",
+        "type": "inject",
+        "z": "7238ea5c0b944856",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 120,
+        "y": 440,
+        "wires": [
+            [
+                "b0190b1cdb9839db"
+            ]
+        ]
+    },
+    {
+        "id": "9e6a437b124e8fab",
+        "type": "function",
+        "z": "7238ea5c0b944856",
+        "name": "show all data",
+        "func": "flow.set(\"customerCode\", msg.payload);\n\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a65e22feb4b6a439",
+        "type": "function",
+        "z": "7238ea5c0b944856",
+        "name": "function 20",
+        "func": "let data = msg.payload;\nlet nullChecker = global.get(\"nullChecker\");\n\nswitch (msg.topic) {\n    case \"PartWeight\":\n        flow.set(\"partWeight\",data);\n        let weigth = flow.get(\"partWeight\");\n        node.status({fill:\"green\",shape:\"dot\",text:weigth});\n        break;\n    case \"QtyPackage\":\n        flow.set(\"qtyPackage\", data);\n        let qtyPart = flow.get(\"qtyPackage\");\n        node.status({fill:\"red\",shape:\"dot\",text:qtyPart});\n        break;\n        \n}\n\nlet weigth = flow.get(\"partWeight\");\nlet qtyPack = flow.get(\"qtyPackage\");\n\nif (nullChecker(weigth)||nullChecker(qtyPack)){\n    msg.payload = \"\";\n    node.status({fill:\"red\",shape:\"dot\",text:\"empty\"});\n    return msg;\n}else{\n    let actual = qtyPack * weigth;\n\n    msg.payload = actual;\n    node.status({ fill: \"green\", shape: \"dot\", text: actual });\n\n    flow.set(\"actual\", actual);\n\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 480,
+        "wires": [
+            [
+                "5db35c2881131d98"
+            ]
+        ]
+    },
+    {
+        "id": "ad6526820750aa48",
+        "type": "inject",
+        "z": "7238ea5c0b944856",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 340,
+        "y": 660,
+        "wires": [
+            [
+                "b9156e104a689b67"
+            ]
+        ]
+    },
+    {
+        "id": "573182bbb6f49fb5",
+        "type": "function",
+        "z": "7238ea5c0b944856",
+        "name": "function 21",
+        "func": "let data = msg.payload;\nlet nullChecker = global.get(\"nullChecker\");\n\nif (nullChecker(data)){\n    msg.payload = \"\";\n    node.status({fill:\"red\",shape:\"dot\",text:\"empty\"});\n    return msg;\n}else{\n\n    let code = flow.get(\"customerCode\");\n\n    if(nullChecker(code)){\n        msg.payload = \"Masukan Customer Terlebih dahulu!\";\n    }else{\n        msg.payload = `${code}${data}`;\n        flow.set(\"partNumber\", msg.payload);\n    }\n\n    return msg;\n\n\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 440,
+        "wires": [
+            [
+                "c4e8eba3194e96c6"
+            ]
+        ]
+    },
+    {
+        "id": "c4e8eba3194e96c6",
+        "type": "ui_text",
+        "z": "7238ea5c0b944856",
+        "group": "ac89c2c5c39a36b2",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "PartNumber",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#000000",
+        "x": 690,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "d92afb08f0bc34ab",
+        "type": "function",
+        "z": "7238ea5c0b944856",
+        "name": "function 22",
+        "func": "let data = msg.payload;\nif(data>=100){\n    data = 100;\n}else if(data<=0){\n    data = 0;\n}\nnode.status({fill:\"green\",shape:\"dot\",text:data});\nflow.set(\"tolerance\", data);\n\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3befdf9c6fb017b5",
+        "type": "ui_button",
+        "z": "7238ea5c0b944856",
+        "name": "",
+        "group": "ac89c2c5c39a36b2",
+        "order": 10,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "save",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "button",
+        "topicType": "str",
+        "x": 350,
+        "y": 620,
+        "wires": [
+            [
+                "b9156e104a689b67"
+            ]
+        ]
+    },
+    {
+        "id": "8a9c82fa81ec7274",
+        "type": "function",
+        "z": "7238ea5c0b944856",
+        "name": "function 23",
+        "func": "let data = msg.payload;\n\nflow.set(\"boxQty\", data);\n\nreturn null;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 580,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b9156e104a689b67",
+        "type": "function",
+        "z": "7238ea5c0b944856",
+        "name": "function 24",
+        "func": "let data = msg.payload;\nlet nullChekcer = global.get(\"nullChecker\");\n\nlet partNumber = flow.get(\"partNumber\");\nlet partWeight= flow.get(\"partWeight\");\nlet qtyPackage= flow.get(\"qtyPackage\");\nlet actual= flow.get(\"actual\");\nlet tolerance= flow.get(\"tolerance\");\nlet boxQty= flow.get(\"boxQty\");\n\nmsg.data = {\n        partNumber : partNumber,\n        partWeight : partWeight,\n        qtyPackage : qtyPackage,\n        actual : actual,\n        tolerance : tolerance,\n        boxQty : boxQty\n    }\n\nif(nullChekcer(partNumber) || nullChekcer(partWeight)|| nullChekcer(qtyPackage)||\n    nullChekcer(actual)|| nullChekcer(tolerance)|| nullChekcer(boxQty)){\n    msg.payload = \"Parameter Not Complete\";\n\n\n    return ([null, msg]);\n}else{\n    msg.payload = {\n        partNumber : partNumber,\n        partWeight : partWeight,\n        qtyPackage : qtyPackage,\n        actual : actual,\n        tolerance : tolerance,\n        boxQty : boxQty\n    }\n    \n    let tableName = env.get(\"prodTable\");\n\n    const createTableQuery = `\n        INSERT INTO ${tableName} (\n        PartNumber,\n        WeightPerPart,\n        QTYPerPackage,\n        Actual,\n        Tolerance,\n        QtyPerBox\n    ) VALUES (\n        '${partNumber}',\n        ${partWeight},\n        ${qtyPackage},\n        ${actual},\n        ${tolerance},\n        ${boxQty}\n    );`;\n\n    msg.topic = createTableQuery;\n\n    let data = {\n        payload : \"success\",\n        topic : \"\"\n    }\n    return([msg, data]);\n}\n\nreturn null;",
+        "outputs": 2,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 510,
+        "y": 620,
+        "wires": [
+            [
+                "497d380468e13f9c",
+                "807522335ef7629e"
+            ],
+            [
+                "7ff1d8a3f84c96e8"
+            ]
+        ]
+    },
+    {
+        "id": "7ff1d8a3f84c96e8",
+        "type": "ui_toast",
+        "z": "7238ea5c0b944856",
+        "position": "dialog",
+        "displayTime": "2",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "",
+        "x": 670,
+        "y": 660,
+        "wires": [
+            [
+                "0461fa40a3794815"
+            ]
+        ]
+    },
+    {
+        "id": "0461fa40a3794815",
+        "type": "debug",
+        "z": "7238ea5c0b944856",
+        "name": "debug 9",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 860,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "807522335ef7629e",
+        "type": "debug",
+        "z": "7238ea5c0b944856",
+        "name": "debug 10",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "497d380468e13f9c",
+        "type": "sqlite",
+        "z": "7238ea5c0b944856",
+        "mydb": "097f145ef69be4be",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "sqlite",
+        "x": 670,
+        "y": 620,
+        "wires": [
+            []
+        ],
+        "icon": "node-red/db.svg"
+    },
+    {
+        "id": "90ee5027eeb8f03d",
+        "type": "debug",
+        "z": "7238ea5c0b944856",
+        "name": "debug 15",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "c23984fbad4578ef",
+        "type": "debug",
+        "z": "7238ea5c0b944856",
+        "name": "debug 16",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "0be4a853c5f8dd7f",
+        "type": "inject",
+        "z": "e4e6e727a4b89e23",
+        "g": "b1597850ea219a89",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 225,
+        "y": 100,
+        "wires": [
+            [
+                "64419ad3218bde98"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "79aaa9b8cca58256",
+        "type": "sqlite",
+        "z": "e4e6e727a4b89e23",
+        "g": "b1597850ea219a89",
+        "mydb": "097f145ef69be4be",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "sqlite",
+        "x": 570,
+        "y": 180,
+        "wires": [
+            [
+                "3718bd10a8f08898"
+            ]
+        ],
+        "icon": "node-red/db.svg"
+    },
+    {
+        "id": "64419ad3218bde98",
+        "type": "function",
+        "z": "e4e6e727a4b89e23",
+        "g": "b1597850ea219a89",
+        "name": "create table",
+        "func": "let tableName = env.get(\"overallTable\");\nconst createTableQuery = `\n    CREATE TABLE ${tableName} (\n    id INTEGER PRIMARY KEY AUTOINCREMENT, \n    timestamp TIMESTAMP,\n    shift INT,\n    partNumber STRING,\n    soNumber STRING,\n    weight FLOAT,\n    quantity INT,\n    soQty INT\n    );\n`;\n\nmsg.topic = createTableQuery;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 100,
+        "wires": [
+            [
+                "6d784d2aa86dccfd"
+            ]
+        ]
+    },
+    {
+        "id": "92a8e2de51d42b28",
+        "type": "inject",
+        "z": "e4e6e727a4b89e23",
+        "g": "b1597850ea219a89",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 225,
+        "y": 180,
+        "wires": [
+            [
+                "31845561876322a6"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3718bd10a8f08898",
+        "type": "debug",
+        "z": "e4e6e727a4b89e23",
+        "g": "b1597850ea219a89",
+        "name": "output query",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 710,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "8b2cc7378474d24a",
+        "type": "function",
+        "z": "e4e6e727a4b89e23",
+        "g": "b1597850ea219a89",
+        "name": "insert data",
+        "func": "let tableName = env.get(\"tableName\");\nlet timestamp = getDate();\nconst insertDataQuery = `\nINSERT INTO ${tableName} (\n    timestamp,\n    pumpName,\n    testNo,\n    stepNo,\n    flowTest,\n    headTest,\n    pressureTest,\n    powerTest,\n    flowSpec,\n    headSpec,\n    pressureSpec,\n    powerSpec\n) VALUES (\n    '${timestamp}',\n    'SANYO',\n    1,\n    1,\n    220.04,\n    12.51,\n    33.21,\n    1012.80,\n    200.00,\n    10.0,\n    36.00,\n    1000.00\n);\n`;\n\nmsg.topic = insertDataQuery;\nreturn msg;\n\nfunction getDate() {\n    // Menggunakan library Date di JavaScript untuk mendapatkan timestamp\nlet date = new Date();\n\n// Atur timezone offset untuk GMT+7 (Jakarta)\nlet timezoneOffset = -7 * 60; // offset dalam menit\n\n// Konversi waktu lokal ke GMT+7\nlet jakartaTime = new Date(date.getTime() + (timezoneOffset + date.getTimezoneOffset()) * 60000);\n\n// Format timestamp sesuai yang diminta\nlet year = jakartaTime.getFullYear();\nlet month = String(jakartaTime.getMonth() + 1).padStart(2, '0');\nlet day = String(jakartaTime.getDate()).padStart(2, '0');\nlet hours = String(jakartaTime.getHours()).padStart(2, '0');\nlet minutes = String(jakartaTime.getMinutes()).padStart(2, '0');\nlet seconds = String(jakartaTime.getSeconds()).padStart(2, '0');\nlet milliseconds = String(jakartaTime.getMilliseconds()).padStart(3, '0');\n\n// Gabungkan semua bagian untuk membentuk timestamp yang diinginkan\nlet timestamp = `${year}-${month}-${day}T${hours}:${minutes}:${seconds}.${milliseconds}+0700`;\n\n\nreturn timestamp;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 140,
+        "wires": [
+            [
+                "6d784d2aa86dccfd"
+            ]
+        ]
+    },
+    {
+        "id": "5c521dbcfa753577",
+        "type": "inject",
+        "z": "e4e6e727a4b89e23",
+        "g": "b1597850ea219a89",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "select * from power_data",
+        "payload": "",
+        "payloadType": "date",
+        "x": 225,
+        "y": 140,
+        "wires": [
+            [
+                "8b2cc7378474d24a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "31845561876322a6",
+        "type": "function",
+        "z": "e4e6e727a4b89e23",
+        "g": "b1597850ea219a89",
+        "name": "show all data",
+        "func": "let tableName = env.get(\"tableName\");\nconst showDataQuery = `\nSELECT * FROM ${tableName}\n`;\n\nmsg.topic = showDataQuery;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 180,
+        "wires": [
+            [
+                "6d784d2aa86dccfd"
+            ]
+        ]
+    },
+    {
+        "id": "6916e0e335883c8f",
+        "type": "function",
+        "z": "e4e6e727a4b89e23",
+        "g": "b1597850ea219a89",
+        "name": "show first data",
+        "func": "let tableName = env.get(\"tableName\");\nconst showDataQuery = `\nSELECT * FROM ${tableName} ORDER BY ROWID ASC LIMIT 1\n`;\nmsg.topic = showDataQuery;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 220,
+        "wires": [
+            [
+                "6d784d2aa86dccfd"
+            ]
+        ]
+    },
+    {
+        "id": "c7532c2b1a149a10",
+        "type": "inject",
+        "z": "e4e6e727a4b89e23",
+        "g": "b1597850ea219a89",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 225,
+        "y": 220,
+        "wires": [
+            [
+                "6916e0e335883c8f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a81249df2f455024",
+        "type": "function",
+        "z": "e4e6e727a4b89e23",
+        "g": "b1597850ea219a89",
+        "name": "delete table",
+        "func": "let tableName = env.get(\"tableName\");\nconst deleteTableQuery = `\nDROP TABLE ${tableName};\n`;\n\nmsg.topic = deleteTableQuery;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 260,
+        "wires": [
+            [
+                "6d784d2aa86dccfd"
+            ]
+        ]
+    },
+    {
+        "id": "fbc13c422be0a57f",
+        "type": "inject",
+        "z": "e4e6e727a4b89e23",
+        "g": "b1597850ea219a89",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 225,
+        "y": 260,
+        "wires": [
+            [
+                "a81249df2f455024"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "function_node_id",
+        "type": "function",
+        "z": "e4e6e727a4b89e23",
+        "name": "Convert to CSV",
+        "func": "// Contoh array JSON\nlet data = msg.payload;\n\n// Ambil header dari kunci objek pertama\nlet headers = Object.keys(data[0]);\n\n// Buat baris header CSV\nlet csv = headers.join(',') + '\\n';\n\n// Tambahkan baris data ke CSV\ndata.forEach(item => {\n    let row = headers.map(header => item[header]);\n    csv += row.join(',') + '\\n';\n});\n\n// Setel payload dengan data CSV\nmsg.payload = csv;\n\n// Tentukan nama file dan path\nmsg.filename = \"c:/temp/data.csv\";\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 340,
+        "wires": [
+            [
+                "file_node_id"
+            ]
+        ]
+    },
+    {
+        "id": "file_node_id",
+        "type": "file",
+        "z": "e4e6e727a4b89e23",
+        "name": "Write to CSV",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": false,
+        "createDir": false,
+        "overwriteFile": "true",
+        "encoding": "none",
+        "x": 790,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fe4c7cc4cff53260",
+        "type": "inject",
+        "z": "e4e6e727a4b89e23",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 225,
+        "y": 340,
+        "wires": [
+            [
+                "b7906f4fd9d84e89"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "b7906f4fd9d84e89",
+        "type": "function",
+        "z": "e4e6e727a4b89e23",
+        "name": "show all data",
+        "func": "let tableName = env.get(\"tableName\");\n\nconst showDataQuery = `\nSELECT * FROM ${tableName}\n`;\n\nmsg.topic = showDataQuery;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 340,
+        "wires": [
+            [
+                "21f3269273451a2f"
+            ]
+        ]
+    },
+    {
+        "id": "21f3269273451a2f",
+        "type": "sqlite",
+        "z": "e4e6e727a4b89e23",
+        "mydb": "097f145ef69be4be",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "sqlite",
+        "x": 470,
+        "y": 340,
+        "wires": [
+            [
+                "function_node_id"
+            ]
+        ],
+        "icon": "node-red/db.svg"
+    },
+    {
+        "id": "366002030d09df5c",
+        "type": "inject",
+        "z": "e4e6e727a4b89e23",
+        "g": "1251e19eceab78db",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 225,
+        "y": 440,
+        "wires": [
+            [
+                "85a2c97cbde6c22d"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "d501b6b30d701291",
+        "type": "sqlite",
+        "z": "e4e6e727a4b89e23",
+        "g": "1251e19eceab78db",
+        "mydb": "097f145ef69be4be",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "sqlite",
+        "x": 570,
+        "y": 520,
+        "wires": [
+            [
+                "22a9309db52e9283"
+            ]
+        ],
+        "icon": "node-red/db.svg"
+    },
+    {
+        "id": "85a2c97cbde6c22d",
+        "type": "function",
+        "z": "e4e6e727a4b89e23",
+        "g": "1251e19eceab78db",
+        "name": "create table",
+        "func": "let tableName = env.get(\"prodTable\");\nconst createTableQuery = `\n    CREATE TABLE ${tableName} (\n    id INTEGER PRIMARY KEY AUTOINCREMENT, \n    PartNumber STRING,\n    WeightPerPart INT,\n    QTYperPackage STRING,\n    Actual INT,\n    Tolerance INT,\n    QtyPerBox FLOAT\n    );\n`;\n\nmsg.topic = createTableQuery;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 440,
+        "wires": [
+            [
+                "b2481c049b6cbe95"
+            ]
+        ]
+    },
+    {
+        "id": "c8143edda08c0601",
+        "type": "inject",
+        "z": "e4e6e727a4b89e23",
+        "g": "1251e19eceab78db",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 225,
+        "y": 520,
+        "wires": [
+            [
+                "a2271810ce00341d"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "22a9309db52e9283",
+        "type": "debug",
+        "z": "e4e6e727a4b89e23",
+        "g": "1251e19eceab78db",
+        "name": "output query",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 710,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "6dfd6f72ca20c249",
+        "type": "function",
+        "z": "e4e6e727a4b89e23",
+        "g": "1251e19eceab78db",
+        "name": "insert data",
+        "func": "let tableName = env.get(\"prodTable\");\nlet timestamp = getDate();\nconst insertDataQuery = `\nINSERT INTO prodTable (\n        PartNumber,\n        WeightPerPart,\n        QTYPerPackage,\n        Actual,\n        Tolerance,\n        QtyPerBox\n    ) VALUES (\n        'TSL123123123',\n        11,\n        44,\n        484,\n        5,\n        10\n    );\n`;\n\nmsg.topic = insertDataQuery;\nreturn msg;\n\nfunction getDate() {\n    // Menggunakan library Date di JavaScript untuk mendapatkan timestamp\nlet date = new Date();\n\n// Atur timezone offset untuk GMT+7 (Jakarta)\nlet timezoneOffset = -7 * 60; // offset dalam menit\n\n// Konversi waktu lokal ke GMT+7\nlet jakartaTime = new Date(date.getTime() + (timezoneOffset + date.getTimezoneOffset()) * 60000);\n\n// Format timestamp sesuai yang diminta\nlet year = jakartaTime.getFullYear();\nlet month = String(jakartaTime.getMonth() + 1).padStart(2, '0');\nlet day = String(jakartaTime.getDate()).padStart(2, '0');\nlet hours = String(jakartaTime.getHours()).padStart(2, '0');\nlet minutes = String(jakartaTime.getMinutes()).padStart(2, '0');\nlet seconds = String(jakartaTime.getSeconds()).padStart(2, '0');\nlet milliseconds = String(jakartaTime.getMilliseconds()).padStart(3, '0');\n\n// Gabungkan semua bagian untuk membentuk timestamp yang diinginkan\nlet timestamp = `${year}-${month}-${day}T${hours}:${minutes}:${seconds}.${milliseconds}+0700`;\n\n\nreturn timestamp;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 480,
+        "wires": [
+            [
+                "b2481c049b6cbe95"
+            ]
+        ]
+    },
+    {
+        "id": "9332763ba1e2aa5e",
+        "type": "inject",
+        "z": "e4e6e727a4b89e23",
+        "g": "1251e19eceab78db",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "select * from power_data",
+        "payload": "",
+        "payloadType": "date",
+        "x": 225,
+        "y": 480,
+        "wires": [
+            [
+                "6dfd6f72ca20c249"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "a2271810ce00341d",
+        "type": "function",
+        "z": "e4e6e727a4b89e23",
+        "g": "1251e19eceab78db",
+        "name": "show all data",
+        "func": "let tableName = env.get(\"prodTable\");\nconst showDataQuery = `\nSELECT * FROM ${tableName}\n`;\n\nmsg.topic = showDataQuery;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 520,
+        "wires": [
+            [
+                "b2481c049b6cbe95"
+            ]
+        ]
+    },
+    {
+        "id": "958f3508d6d15933",
+        "type": "function",
+        "z": "e4e6e727a4b89e23",
+        "g": "1251e19eceab78db",
+        "name": "show first data",
+        "func": "let tableName = env.get(\"prodTable\");\nconst showDataQuery = `\nSELECT * FROM ${tableName} ORDER BY ROWID ASC LIMIT 1\n`;\nmsg.topic = showDataQuery;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 560,
+        "wires": [
+            [
+                "b2481c049b6cbe95"
+            ]
+        ]
+    },
+    {
+        "id": "e9774d05923844f6",
+        "type": "inject",
+        "z": "e4e6e727a4b89e23",
+        "g": "1251e19eceab78db",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 225,
+        "y": 560,
+        "wires": [
+            [
+                "958f3508d6d15933"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "2d71cb83aec58a88",
+        "type": "function",
+        "z": "e4e6e727a4b89e23",
+        "g": "1251e19eceab78db",
+        "name": "delete table",
+        "func": "let tableName = env.get(\"prodTable\");\nconst deleteTableQuery = `\nDROP TABLE ${tableName};\n`;\n\nmsg.topic = deleteTableQuery;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 600,
+        "wires": [
+            [
+                "b2481c049b6cbe95"
+            ]
+        ]
+    },
+    {
+        "id": "309ea86ce8d7055c",
+        "type": "inject",
+        "z": "e4e6e727a4b89e23",
+        "g": "1251e19eceab78db",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 225,
+        "y": 600,
+        "wires": [
+            [
+                "2d71cb83aec58a88"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "6f6bce614cca4ef5",
+        "type": "inject",
+        "z": "e4e6e727a4b89e23",
+        "g": "e58bd8f94d20e935",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 225,
+        "y": 700,
+        "wires": [
+            [
+                "1363334c4346fff6"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "81d28396c3540ffe",
+        "type": "sqlite",
+        "z": "e4e6e727a4b89e23",
+        "g": "e58bd8f94d20e935",
+        "mydb": "097f145ef69be4be",
+        "sqlquery": "msg.topic",
+        "sql": "",
+        "name": "sqlite",
+        "x": 570,
+        "y": 780,
+        "wires": [
+            [
+                "35dbf87e8b02310e"
+            ]
+        ],
+        "icon": "node-red/db.svg"
+    },
+    {
+        "id": "1363334c4346fff6",
+        "type": "function",
+        "z": "e4e6e727a4b89e23",
+        "g": "e58bd8f94d20e935",
+        "name": "create table",
+        "func": "let tableName = env.get(\"customerTable\");\nconst createTableQuery = `\n    CREATE TABLE ${tableName} (\n    id INTEGER PRIMARY KEY AUTOINCREMENT, \n    code STRING,\n    customerName String\n    );\n`;\n\nmsg.topic = createTableQuery;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 700,
+        "wires": [
+            [
+                "e71252f7e1354261"
+            ]
+        ]
+    },
+    {
+        "id": "d5ea13d3b769c510",
+        "type": "inject",
+        "z": "e4e6e727a4b89e23",
+        "g": "e58bd8f94d20e935",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 225,
+        "y": 780,
+        "wires": [
+            [
+                "7f709a6fdbc7144a"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "35dbf87e8b02310e",
+        "type": "debug",
+        "z": "e4e6e727a4b89e23",
+        "g": "e58bd8f94d20e935",
+        "name": "output query",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 710,
+        "y": 780,
+        "wires": []
+    },
+    {
+        "id": "1765991b4c20f9c0",
+        "type": "function",
+        "z": "e4e6e727a4b89e23",
+        "g": "e58bd8f94d20e935",
+        "name": "insert data",
+        "func": "let tableName = env.get(\"customerTable\");\nlet timestamp = getDate();\nconst insertDataQuery = `\nINSERT INTO ${tableName} (\n    code,\n    customerName\n) VALUES (\n    'SANYO',\n    'Tesla'\n);\n`;\n\nmsg.topic = insertDataQuery;\nreturn msg;\n\nfunction getDate() {\n    // Menggunakan library Date di JavaScript untuk mendapatkan timestamp\nlet date = new Date();\n\n// Atur timezone offset untuk GMT+7 (Jakarta)\nlet timezoneOffset = -7 * 60; // offset dalam menit\n\n// Konversi waktu lokal ke GMT+7\nlet jakartaTime = new Date(date.getTime() + (timezoneOffset + date.getTimezoneOffset()) * 60000);\n\n// Format timestamp sesuai yang diminta\nlet year = jakartaTime.getFullYear();\nlet month = String(jakartaTime.getMonth() + 1).padStart(2, '0');\nlet day = String(jakartaTime.getDate()).padStart(2, '0');\nlet hours = String(jakartaTime.getHours()).padStart(2, '0');\nlet minutes = String(jakartaTime.getMinutes()).padStart(2, '0');\nlet seconds = String(jakartaTime.getSeconds()).padStart(2, '0');\nlet milliseconds = String(jakartaTime.getMilliseconds()).padStart(3, '0');\n\n// Gabungkan semua bagian untuk membentuk timestamp yang diinginkan\nlet timestamp = `${year}-${month}-${day}T${hours}:${minutes}:${seconds}.${milliseconds}+0700`;\n\n\nreturn timestamp;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 740,
+        "wires": [
+            [
+                "e71252f7e1354261"
+            ]
+        ]
+    },
+    {
+        "id": "705caa2e5a809b13",
+        "type": "inject",
+        "z": "e4e6e727a4b89e23",
+        "g": "e58bd8f94d20e935",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "select * from power_data",
+        "payload": "",
+        "payloadType": "date",
+        "x": 225,
+        "y": 740,
+        "wires": [
+            [
+                "1765991b4c20f9c0"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7f709a6fdbc7144a",
+        "type": "function",
+        "z": "e4e6e727a4b89e23",
+        "g": "e58bd8f94d20e935",
+        "name": "show all data",
+        "func": "let tableName = env.get(\"customerTable\");\nconst showDataQuery = `\nSELECT * FROM ${tableName}\n`;\n\nmsg.topic = showDataQuery;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 780,
+        "wires": [
+            [
+                "e71252f7e1354261"
+            ]
+        ]
+    },
+    {
+        "id": "a2019dce1ede2873",
+        "type": "function",
+        "z": "e4e6e727a4b89e23",
+        "g": "e58bd8f94d20e935",
+        "name": "show first data",
+        "func": "let tableName = env.get(\"customerTable\");\nconst showDataQuery = `\nSELECT * FROM ${tableName} ORDER BY ROWID ASC LIMIT 1\n`;\nmsg.topic = showDataQuery;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 820,
+        "wires": [
+            [
+                "e71252f7e1354261"
+            ]
+        ]
+    },
+    {
+        "id": "41e9867c6dbed952",
+        "type": "inject",
+        "z": "e4e6e727a4b89e23",
+        "g": "e58bd8f94d20e935",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 225,
+        "y": 820,
+        "wires": [
+            [
+                "a2019dce1ede2873"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "7275e440060aed38",
+        "type": "function",
+        "z": "e4e6e727a4b89e23",
+        "g": "e58bd8f94d20e935",
+        "name": "delete table",
+        "func": "let tableName = env.get(\"customerTable\");\nconst deleteTableQuery = `\nDROP TABLE ${tableName};\n`;\n\nmsg.topic = deleteTableQuery;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 860,
+        "wires": [
+            [
+                "e71252f7e1354261"
+            ]
+        ]
+    },
+    {
+        "id": "7c2c4b1c3b6a1d0b",
+        "type": "inject",
+        "z": "e4e6e727a4b89e23",
+        "g": "e58bd8f94d20e935",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 225,
+        "y": 860,
+        "wires": [
+            [
+                "7275e440060aed38"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "3",
+        "type": "function",
+        "z": "e4e6e727a4b89e23",
+        "d": true,
+        "name": "Format CSV",
+        "func": "const rows = msg.payload;\n\n// Mendapatkan tanggal hari ini dalam format YYMMDD\nconst today = new Date();\nconst yyyy = today.getFullYear().toString().substr(-2);\nconst mm = (today.getMonth() + 1).toString().padStart(2, '0');\nconst dd = today.getDate().toString().padStart(2, '0');\nconst fileName = `${yyyy}${mm}${dd}.csv`;\n\n// Mengubah data menjadi format CSV\nconst headers = Object.keys(rows[0]).join(',');\nconst csvData = rows.map(row => Object.values(row).join(',')).join('\\n');\nconst csvContent = `${headers}\\n${csvData}`;\n\n// Menyimpan nama file dan konten CSV ke msg\nmsg.filename = fileName;\nmsg.payload = csvContent;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 980,
+        "wires": [
+            [
+                "4"
+            ]
+        ]
+    },
+    {
+        "id": "2",
+        "type": "sqlite",
+        "z": "e4e6e727a4b89e23",
+        "d": true,
+        "mydb": "097f145ef69be4be",
+        "sqlquery": "msg.topic",
+        "sql": "SELECT * FROM your_table_name;",
+        "name": "Query SQLite",
+        "x": 490,
+        "y": 980,
+        "wires": [
+            [
+                "3"
+            ]
+        ]
+    },
+    {
+        "id": "4",
+        "type": "file",
+        "z": "e4e6e727a4b89e23",
+        "d": true,
+        "name": "Write to File",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "utf8",
+        "x": 890,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1",
+        "type": "inject",
+        "z": "e4e6e727a4b89e23",
+        "d": true,
+        "name": "Daily Trigger",
+        "props": [],
+        "repeat": "",
+        "crontab": "00 00 * * *",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 290,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "0905ea99408e50d1",
+        "type": "inject",
+        "z": "e4e6e727a4b89e23",
+        "d": true,
+        "name": "Daily Trigger",
+        "props": [],
+        "repeat": "86400",
+        "crontab": "00 00 * * *",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "x": 300,
+        "y": 1060,
+        "wires": [
+            [
+                "022d8810a5e36ef4"
+            ]
+        ]
+    },
+    {
+        "id": "022d8810a5e36ef4",
+        "type": "sqlite",
+        "z": "e4e6e727a4b89e23",
+        "d": true,
+        "mydb": "097f145ef69be4be",
+        "sqlquery": "msg.topic",
+        "sql": "SELECT * FROM your_table_name;",
+        "name": "Query SQLite",
+        "x": 500,
+        "y": 1060,
+        "wires": [
+            [
+                "7e67c2b957f0892a"
+            ]
+        ]
+    },
+    {
+        "id": "7e67c2b957f0892a",
+        "type": "function",
+        "z": "e4e6e727a4b89e23",
+        "d": true,
+        "name": "Format CSV",
+        "func": "const rows = msg.payload;\n\n// Mendapatkan tanggal hari ini dalam format YYMMDD\nconst today = new Date();\nconst year = today.getFullYear();\nconst monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\", \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"];\nconst month = monthNames[today.getMonth()];\nconst yyyy = year.toString().substr(-2);\nconst mm = (today.getMonth() + 1).toString().padStart(2, '0');\nconst dd = today.getDate().toString().padStart(2, '0');\nconst fileName = `${dd}${mm}${yyyy}.csv`;\nconst folderPath = `./${year}/${month}`;\nconst filePath = `${folderPath}/${fileName}`;\n\n// Mengubah data menjadi format CSV\nconst headers = Object.keys(rows[0]).join(',');\nconst csvData = rows.map(row => Object.values(row).join(',')).join('\\n');\nconst csvContent = `${headers}\\n${csvData}`;\n\n// Menyimpan nama file dan konten CSV ke msg\nmsg.filename = filePath;\nmsg.payload = csvContent;\nmsg.folderPath = folderPath;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 700,
+        "y": 1060,
+        "wires": [
+            [
+                "3e3f9123a5d92bb2"
+            ]
+        ]
+    },
+    {
+        "id": "3e3f9123a5d92bb2",
+        "type": "file",
+        "z": "e4e6e727a4b89e23",
+        "d": true,
+        "name": "Write to File",
+        "filename": "filename",
+        "filenameType": "msg",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "true",
+        "encoding": "utf8",
+        "x": 930,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    }
+]
